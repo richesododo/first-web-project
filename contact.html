@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velocity Motors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <a href="index.html"
+          ><img src="Images/vlogo1.jpg" alt="Company Logo"
+        /></a>
+        <h1>Velocity</h1>
+        <div class="icons">
+          <a href="login.html"><i class="fas fa-user"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <span class="hamburger">&#9776;</span>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="signin.html"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="contact-hero">
+      <div class="contact-text">
+        <h1>CONTACT VM.</h1>
+        <p>
+          Every aspect of everything car, at your fingertips. Let us know how we
+          can help.
+        </p>
+      </div>
+    </section>
+    <div class="accordion-container">
+      <!-- Complaints Section -->
+      <div class="accordion-item">
+        <button
+          class="accordion-button"
+          type="button"
+          id="accordion2"
+          aria-expanded="false"
+        >
+          VM COMPLAINTS.
+        </button>
+        <div class="accordion-content">
+          <img src="Images/Group Bentley.jpg" alt="VM Complaints" />
+          <p>If something isn’t right, we’re here to help you resolve it.</p>
+          <p>
+            <strong>Contact us at:</strong><br />
+            Telephone: 123-456-7890<br />
+            Email: service@velocitymotors.co.uk
+          </p>
+          <p>
+            Customer Service<br />
+            Velocity Motors (UK) Ltd<br />
+            Close one, Close Avenue<br />
+            Zootopia, Brick City<br />
+            BG28 3CD
+          </p>
+          <p>
+            We are committed to investigating and resolving your concerns fairly
+            and efficiently.
+          </p>
+        </div>
+      </div>
+    </div>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section contact">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="about.html">Contact Us</a></li>
+              <li><a href="#">Contact VM Financial Services</a></li>
+              <li><a href="#">Find a VM Centre</a></li>
+              <li><a href="#">Local Genius</a></li>
+            </ul>
+          </div>
+          <div class="footer-section quick-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Book a Test Drive</a></li>
+              <li><a href="#">Get a Brochure</a></li>
+              <li><a href="#">Subscribe to VM News</a></li>
+              <li><a href="#">Book a Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-section experience-vm">
+            <h4>Experience VM</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#">VM Plug-in Hybrid</a></li>
+            </ul>
+          </div>
+          <div class="footer-section legal">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">ConnectedDrive Legal Information</a></li>
+              <li><a href="#">Service Booking Legal Information</a></li>
+              <li><a href="#">Product Safety Enquiry</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© VM UK 2024</p>
+        </div>
+      </footer>
+      <script>
+        // Function to close all accordion items
+        function closeAllAccordionItems() {
+          document.querySelectorAll(".accordion-button").forEach((b) => {
+            b.setAttribute("aria-expanded", "false");
+            b.classList.remove("active");
+            b.nextElementSibling.style.maxHeight = 0;
+          });
+        }
+
+        // Select all accordion buttons
+        const accordionButtons = document.querySelectorAll(".accordion-button");
+
+        // Loop through each button and add click event
+        accordionButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            // Check if the button is already expanded
+            const isExpanded = button.getAttribute("aria-expanded") === "true";
+            // Close all accordion items first
+            closeAllAccordionItems();
+
+            // Toggle the current one based on its previous state
+            if (!isExpanded) {
+              button.setAttribute("aria-expanded", "true");
+              button.classList.add("active");
+              button.nextElementSibling.style.maxHeight =
+                button.nextElementSibling.scrollHeight + "px";
+            } // No need for an else statement, as closeAllAccordionItems() already handles closing
+          });
+        });
+      </script>
+    </div>
+  </body>
+</html>

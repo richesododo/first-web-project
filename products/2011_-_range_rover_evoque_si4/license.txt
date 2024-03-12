@@ -1,0 +1,11 @@
+Model Information:
+* title:	2011 - Range Rover Evoque SI4
+* source:	https://sketchfab.com/3d-models/2011-range-rover-evoque-si4-35cd9b5a34da4f0aa41856337d977118
+* author:	UniBlend (https://sketchfab.com/UniBlend)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2011 - Range Rover Evoque SI4" (https://sketchfab.com/3d-models/2011-range-rover-evoque-si4-35cd9b5a34da4f0aa41856337d977118) by UniBlend (https://sketchfab.com/UniBlend) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

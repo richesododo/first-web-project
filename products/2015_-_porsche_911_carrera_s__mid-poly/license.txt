@@ -1,0 +1,11 @@
+Model Information:
+* title:	2015 - Porsche 911 Carrera S | Mid-Poly
+* source:	https://sketchfab.com/3d-models/2015-porsche-911-carrera-s-mid-poly-4cef7c1e22ab40fd937507eae9a62cd8
+* author:	chiwei (https://sketchfab.com/chiwei2333)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2015 - Porsche 911 Carrera S | Mid-Poly" (https://sketchfab.com/3d-models/2015-porsche-911-carrera-s-mid-poly-4cef7c1e22ab40fd937507eae9a62cd8) by chiwei (https://sketchfab.com/chiwei2333) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

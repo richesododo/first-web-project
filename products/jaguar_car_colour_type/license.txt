@@ -1,0 +1,11 @@
+Model Information:
+* title:	jaguar car colour type
+* source:	https://sketchfab.com/3d-models/jaguar-car-colour-type-38a30b5f9e6648c99f8d68f4ea0611b6
+* author:	itx_tejashxx_08 (https://sketchfab.com/tejashbhal)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "jaguar car colour type" (https://sketchfab.com/3d-models/jaguar-car-colour-type-38a30b5f9e6648c99f8d68f4ea0611b6) by itx_tejashxx_08 (https://sketchfab.com/tejashbhal) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

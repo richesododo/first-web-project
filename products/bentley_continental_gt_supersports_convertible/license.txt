@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bentley Continental GT Supersports Convertible
+* source:	https://sketchfab.com/3d-models/bentley-continental-gt-supersports-convertible-1a9f6533e1c844b98a7a0769bbcdb1ce
+* author:	BadKarma™ (https://sketchfab.com/890244234)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bentley Continental GT Supersports Convertible" (https://sketchfab.com/3d-models/bentley-continental-gt-supersports-convertible-1a9f6533e1c844b98a7a0769bbcdb1ce) by BadKarma™ (https://sketchfab.com/890244234) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

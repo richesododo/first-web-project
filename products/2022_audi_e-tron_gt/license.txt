@@ -1,0 +1,11 @@
+Model Information:
+* title:	2022 Audi e-tron GT
+* source:	https://sketchfab.com/3d-models/2022-audi-e-tron-gt-785b60b504f94604afc3bf34b315aa58
+* author:	Sidra (https://sketchfab.com/Sidramax)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2022 Audi e-tron GT" (https://sketchfab.com/3d-models/2022-audi-e-tron-gt-785b60b504f94604afc3bf34b315aa58) by Sidra (https://sketchfab.com/Sidramax) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

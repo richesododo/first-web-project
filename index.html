@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Riches Sunnie-Ododo" />
+
+    <meta
+      name="description"
+      content="Find and customize your perfect vehicle at Velocity Drive. Explore a wide range of new and used cars, including luxury, sports, and electric vehicles."
+    />
+    <title>Velocity drive</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <a href="index.html"
+          ><img src="Images/vlogo1.jpg" alt="Company Logo"
+        /></a>
+        <h1>Velocity</h1>
+        <div class="icons">
+          <a href="login.html"><i class="fas fa-user"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <span class="hamburger">&#9776;</span>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="signin.html"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero section -->
+    <div class="slideshow-container">
+      <!-- Slides -->
+      <div
+        class="slides"
+        style="background-image: url('Images/2024-ferrari-sf90.jpg')"
+      >
+        <div class="slide-content">
+          <h2>Unleash your passion: Feel the thrill of Ferrari.</h2>
+          <a href="#" class="buttons"><button>Buy Now</button></a>
+          <a href="#" class="buttons"><button>Discover now</button></a>
+        </div>
+      </div>
+      <div class="slides" style="background-image: url('Images/Audi1.jpg')">
+        <div class="slide-content">
+          <h2>Empowering luxury: Unleash the electric elegance of Audi.</h2>
+          <a href="#" class="buttons"><button>Buy Now</button></a>
+          <a href="#" class="buttons"><button>Discover now</button></a>
+        </div>
+      </div>
+      <div class="slides" style="background-image: url('Images/B1.jpg')">
+        <div class="slide-content">
+          <h2>Breathless.</h2>
+          <a href="#" class="buttons"><button>Buy Now</button></a>
+          <a href="#" class="buttons"><button>Discover now</button></a>
+        </div>
+      </div>
+      <div
+        class="slides"
+        style="
+          background-image: url('Images/Rolls-Royce Wraith Black Arrow.jpg');
+        "
+      >
+        <div class="slide-content">
+          <h2>Elegance.</h2>
+          <a href="#" class="buttons"><button>Buy Now</button></a>
+          <a href="#" class="buttons"><button>Discover now</button></a>
+        </div>
+      </div>
+
+      <!-- Next and previous buttons (optional) -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- VM options section -->
+    <div class="vm-find-section">
+      <h2>FIND YOUR DREAM CAR.</h2>
+      <div class="vm-options-container">
+        <div class="vm-option">
+          <span class="vm-icon"><i class="fas fa-car"></i></span>
+          <h3>FIND A NEW CAR</h3>
+          <button onclick="location.href='#'">Search now</button>
+        </div>
+        <div class="vm-option">
+          <span class="vm-icon"><i class="fas fa-car-side"></i></span>
+          <h3>FIND A USED CAR</h3>
+          <button onclick="location.href='#'">Search now</button>
+        </div>
+        <div class="vm-option">
+          <span class="vm-icon"><i class="fas fa-wrench"></i></span>
+          <h3>BUILD YOUR OWN</h3>
+          <button onclick="location.href='#'">Build & Price</button>
+        </div>
+        <div class="vm-option">
+          <span class="vm-icon"><i class="fas fa-book"></i></span>
+          <h3>GET A BROCHURE</h3>
+          <button onclick="location.href='#'">Get a Brochure</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top cars section -->
+
+    <div>
+      <div class="car1">
+        <div class="cars-content">
+          <h1>THE i5</h1>
+          <p>Ride with Class. Luxury at its finest.</p>
+          <div class="buttons">
+            <a href="#"><button id="build-price">Build & Price</button></a>
+            <a href="discover-page.html"
+              ><button id="discover">Discover now</button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="car2">
+        <div class="cars-content">
+          <h1>Wraith coupe</h1>
+          <p>Elegance in motion: Experience the luxury of Rolls-Royce.</p>
+          <div class="buttons">
+            <a href="#"><button id="build-price">Build & Price</button></a>
+            <a href="#"><button id="discover">Discover now</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="car3">
+        <div class="cars-content">
+          <h1>GT MULLINER BLACKLINE</h1>
+          <p>
+            When Luxury meets performance: Experience the elegance of Bentley.
+          </p>
+          <div class="buttons">
+            <a href="#"><button id="build-price">Build & Price</button></a>
+            <a href="#"><button id="discover">Discover now</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ... OFFERS AND USER MANUAL ... -->
+
+    <div class="content-section">
+      <div class="offer-container">
+        <img
+          src="Images/Bentley Bentayga.jpg"
+          alt="Special Offer"
+          class="offer-image"
+        />
+        <div class="offer-text">
+          <h3>OFFERS</h3>
+          <h2>VM FINANCE OFFERS.</h2>
+          <p>
+            Check out a variety of VM finance offers available across the VM
+            range, including Electric cars.
+          </p>
+          <button onclick="location.href='#'">Find out more</button>
+        </div>
+      </div>
+
+      <div class="owner-container">
+        <div class="owner-text">
+          <h3>OWNERS</h3>
+          <h2>VM OWNER'S DIRECTORY.</h2>
+          <p>
+            Everything you need for your car, all in one place. From servicing
+            and accessories to finance and in-car technology.
+          </p>
+          <button onclick="location.href='link-to-directory.html'">
+            Find out more
+          </button>
+          <button
+            onclick="location.href='link-to-service-booking.html'"
+            class="service-button"
+          >
+            Book a service
+          </button>
+        </div>
+        <img
+          src="Images/car-owner.jpg"
+          alt="Owner Benefits"
+          class="owner-image"
+        />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section contact">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Contact VM Financial Services</a></li>
+            <li><a href="#">Find a VM Centre</a></li>
+            <li><a href="#">Local Genius</a></li>
+          </ul>
+        </div>
+        <div class="footer-section quick-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Book a Test Drive</a></li>
+            <li><a href="#">Get a Brochure</a></li>
+            <li><a href="#">Subscribe to VM News</a></li>
+            <li><a href="#">Book a Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-section experience-vm">
+          <h4>Experience VM</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">VM Plug-in Hybrid</a></li>
+          </ul>
+        </div>
+        <div class="footer-section legal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">ConnectedDrive Legal Information</a></li>
+            <li><a href="#">Service Booking Legal Information</a></li>
+            <li><a href="#">Product Safety Enquiry</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© VM UK 2024</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

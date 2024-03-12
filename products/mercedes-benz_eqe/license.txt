@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mercedes-Benz EQE
+* source:	https://sketchfab.com/3d-models/mercedes-benz-eqe-43643cf5bc26471083d66d0d3b85de4f
+* author:	Emre Çınar (https://sketchfab.com/emrecnarr)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mercedes-Benz EQE" (https://sketchfab.com/3d-models/mercedes-benz-eqe-43643cf5bc26471083d66d0d3b85de4f) by Emre Çınar (https://sketchfab.com/emrecnarr) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

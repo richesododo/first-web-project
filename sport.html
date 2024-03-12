@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Riches Sunnie-Ododo" />
+    <meta name="description" content="Find sport products here." />
+    <title>Velocity Motors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <a href="index.html"
+          ><img src="Images/vlogo1.jpg" alt="Company Logo"
+        /></a>
+        <h1>Velocity</h1>
+        <div class="icons">
+          <a href="login.html"><i class="fas fa-user"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <span class="hamburger">&#9776;</span>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="signin.html"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <div class="car6">
+        <div class="cars-content">
+          <h1>Power lives here!</h1>
+          <div class="buttons">
+            <a href="SUV.html"><button id="build-price">SUV</button></a>
+            <a href="products.html"><button id="build-price">Luxury</button></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <model-viewer
+        src="scene.gltf"
+        alt="A 3D model of a car"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+      </model-viewer> -->
+      <h1 class="car-header">SPORT</h1>
+      <div class="container">
+        <div class="viewer">
+          <model-viewer
+            src="products/2022__mercedes-amg_project_one/scene.gltf"
+            alt="2022 mercedes"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">2022 Mercedes amg.</p>
+          <p class="price">£900,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+
+        <div class="viewer">
+          <model-viewer
+            src="products/ac_-_audi_r8_lms_2016_free/scene.gltf"
+            alt="A 3D model of a car"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">Audi r8 lms 2016.</p>
+          <p class="price">£750,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+
+        <div class="viewer">
+          <model-viewer
+            src="products/audi_r8/scene.gltf"
+            alt="A 3D model of a boat"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">Audi r8</p>
+          <p class="price">£200,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+
+        <div class="viewer">
+          <model-viewer
+            src="products/ferrari_488_pista_widebody/scene.gltf"
+            alt="ferrari_488_pista"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">Ferrari 488 pista.</p>
+          <p class="price">£800,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+        <div class="viewer">
+          <model-viewer
+            src="products/huracan_black-panthertm/scene.gltf"
+            alt="huracan_black-panthertm"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">Huracan black panther</p>
+          <p class="price">£980,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+        <div class="viewer">
+          <model-viewer
+            src="products/huracan_falcontm/scene.gltf"
+            alt=""
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">Huracan falcon.</p>
+          <p class="price">£1,000,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+        <div class="viewer">
+          <model-viewer
+            src="products/lamborghini_aventador_svj_-_sc20_carbon_edition/scene.gltf"
+            alt="lamborghini_aventador"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">Lamborghini aventador.</p>
+          <p class="price">£500,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+        <div class="viewer">
+          <model-viewer
+            src="products/mercedes_amg_gt/scene.gltf"
+            alt="mercedes_amg_gt"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">Mercedes amg gt.</p>
+          <p class="price">£600,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+        <div class="viewer">
+          <model-viewer
+            src="products/porsche_911_gt3/scene.gltf"
+            alt="porsche_911_gt3"
+            shadow-intensity="1"
+            camera-controls
+            auto-rotate
+            ar
+          ></model-viewer>
+          <p class="description">Porsche 911 gt3.</p>
+          <p class="price">£150,599.99</p>
+          <div class="quantity-controls">
+            <button class="decrement-button">-</button>
+            <span class="quantity-display">1</span>
+            <button class="increment-button">+</button>
+          </div>
+          <p class="review-stars">★★★★☆</p>
+          <!-- Example review stars -->
+          <button
+            class="buy-now-button"
+            onclick="location.href='www.google.com';"
+          >
+            Buy Now
+          </button>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section contact">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="about.html">Contact Us</a></li>
+              <li><a href="#">Contact VM Financial Services</a></li>
+              <li><a href="#">Find a VM Centre</a></li>
+              <li><a href="#">Local Genius</a></li>
+            </ul>
+          </div>
+          <div class="footer-section quick-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Book a Test Drive</a></li>
+              <li><a href="#">Get a Brochure</a></li>
+              <li><a href="#">Subscribe to VM News</a></li>
+              <li><a href="#">Book a Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-section experience-vm">
+            <h4>Experience VM</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#">VM Plug-in Hybrid</a></li>
+            </ul>
+          </div>
+          <div class="footer-section legal">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">ConnectedDrive Legal Information</a></li>
+              <li><a href="#">Service Booking Legal Information</a></li>
+              <li><a href="#">Product Safety Enquiry</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© VM UK 2024</p>
+        </div>
+      </footer>
+      <!-- Loads <model-viewer> for modern browsers: -->
+      <script
+        type="module"
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+      ></script>
+
+      <!-- Loads <model-viewer> for old browsers like IE11: -->
+      <script
+        nomodule
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+      ></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+          // Handle increment button clicks
+          document.querySelectorAll(".increment-button").forEach((button) => {
+            button.addEventListener("click", () => {
+              const quantityDisplay = button.previousElementSibling;
+              let quantity = parseInt(quantityDisplay.textContent, 10);
+              quantityDisplay.textContent = quantity + 1;
+            });
+          });
+
+          // Handle decrement button clicks
+          document.querySelectorAll(".decrement-button").forEach((button) => {
+            button.addEventListener("click", () => {
+              const quantityDisplay = button.nextElementSibling;
+              let quantity = parseInt(quantityDisplay.textContent, 10);
+              if (quantity > 1) {
+                // Prevents the quantity from going below 1
+                quantityDisplay.textContent = quantity - 1;
+              }
+            });
+          });
+        });
+        ``;
+      </script>
+    </div>
+  </body>
+</html>

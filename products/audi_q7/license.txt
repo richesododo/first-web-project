@@ -1,0 +1,11 @@
+Model Information:
+* title:	Audi Q7
+* source:	https://sketchfab.com/3d-models/audi-q7-fba4715cbbee4848b7b48f179d59ca11
+* author:	BadKarma™ (https://sketchfab.com/890244234)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Audi Q7" (https://sketchfab.com/3d-models/audi-q7-fba4715cbbee4848b7b48f179d59ca11) by BadKarma™ (https://sketchfab.com/890244234) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

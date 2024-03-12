@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jaguar F Type
+* source:	https://sketchfab.com/3d-models/jaguar-f-type-b338091497c64d31bef9bd7de49ade81
+* author:	Car2022 (https://sketchfab.com/Car2022)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jaguar F Type" (https://sketchfab.com/3d-models/jaguar-f-type-b338091497c64d31bef9bd7de49ade81) by Car2022 (https://sketchfab.com/Car2022) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

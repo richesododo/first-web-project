@@ -1,0 +1,11 @@
+Model Information:
+* title:	Audi A7 Sportback 2018 55 TFSI
+* source:	https://sketchfab.com/3d-models/audi-a7-sportback-2018-55-tfsi-8a045bc6d5744992828026d7ff78c735
+* author:	daelus (https://sketchfab.com/chrisaelus)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Audi A7 Sportback 2018 55 TFSI" (https://sketchfab.com/3d-models/audi-a7-sportback-2018-55-tfsi-8a045bc6d5744992828026d7ff78c735) by daelus (https://sketchfab.com/chrisaelus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
